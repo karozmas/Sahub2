@@ -1,0 +1,61 @@
+# ---------------------------------------
+# Unreal Engine 5 Git Ignore Template
+# ---------------------------------------
+
+# Build files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+
+# Compiled source files
+*.obj
+*.exe
+*.pch
+*.pdb
+*.dll
+*.app
+*.lib
+*.dylib
+*.ipa
+*.so
+
+# Cache and temporary files
+*.sdf
+*.opensdf
+*.suo
+*.tmp
+*.log
+*.user
+*.userprefs
+*.db
+*.sln.docstates
+
+# IDE/project-specific
+.vscode/
+.idea/
+*.VC.db
+*.VC.opendb
+
+# Ignore crash reports
+*.dmp
+
+# Mac files
+.DS_Store
+
+# Linux files
+*~
+
+# Ignore plugin content (optional)
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# Ignore platform-specific intermediate content
+Engine/Intermediate/
+Engine/Saved/
+
+# Optional: ignore config backups
+Config/DefaultEditor.ini.bak
+Config/DefaultEngine.ini.bak
